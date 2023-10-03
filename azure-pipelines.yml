@@ -29,6 +29,6 @@ steps:
     script: |
       echo 'Source directory $(Build.SourcesDirectory)'
       
-      echo 'artifact $(Build.ArtifactStagingDirectory)''
+      echo 'artifact $(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1

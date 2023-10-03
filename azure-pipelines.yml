@@ -23,12 +23,5 @@ steps:
       !README.md
       !azure-pipelines.yml
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
-  
-- task: CmdLine@2
-  inputs:
-    script: |
-      echo 'Source directory $(Build.SourcesDirectory)'
-      
-      echo 'artifact $(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1

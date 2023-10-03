@@ -10,8 +10,18 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: ArchiveFiles@2
+- task: CopyFiles@2
+  displayName: 'Copy Files to $(Build.ArtifactStagingDirectory)'
   inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
-    includeRootFolder: false
+    SourceFolder: '$(Build.SourcesDirectory)'
+    Contents: |
+      **
+      !.git/**/*
+      !.gitignore
+      !terraform/**/*
+      !LICENSE
+      !README.md
+      !azure-pipeline.yml
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
 - task: PublishBuildArtifacts@1

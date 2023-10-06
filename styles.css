@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.right-column {
+    flex: 2;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+.left-section-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.skills-list ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list ul li {
+    margin-bottom: 10px;
+}
+
+.portfolio {
+    margin-top: 20px;
+}
+
+.portfolio .section-title {
+    color: #007BFF;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.02);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Adjust the styles as needed */
+.main-header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.main-header h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.main-header p {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+

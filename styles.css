@@ -151,3 +151,62 @@ ul li {
     padding: 10px 0;
 }
 
+/* portfolio nav to index */
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* portfolio.css */
+
+.project-header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.project-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.project-header h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.project-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.project-content p {
+    font-size: 16px;
+    margin-top: 20px;
+}

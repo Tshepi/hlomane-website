@@ -210,3 +210,16 @@ ul li {
     font-size: 16px;
     margin-top: 20px;
 }
+
+/* visitor count */
+.visitor-count {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#count {
+    font-weight: bold;
+    font-size: 18px;
+}
